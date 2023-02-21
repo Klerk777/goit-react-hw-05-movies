@@ -4,13 +4,16 @@
   margin: 0 auto 20px;
 
   & input {
-    height: 30px;
+    height: 32px;
     width: 300px;
     margin-right: 20px;
+    padding: 4px 10px;
     border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
   }
   & button {
-    height: 30px;
+    height: 32px;
     width: 90px;
     border-radius: 4px;
     background-color: #55579e;

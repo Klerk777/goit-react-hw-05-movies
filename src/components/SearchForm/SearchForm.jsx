@@ -26,7 +26,12 @@ const SearchForm = ({ onFormSubmit }) => {
 
   return (
     <form className={styles.form} onSubmit={handleFormSubmit}>
-      <input type="text" value={inputValue} onChange={handleInputChange} />
+      <input
+        type="text"
+        value={inputValue}
+        onChange={handleInputChange}
+        placeholder="Enter yor query"
+      />
       <button>Search</button>
     </form>
   );

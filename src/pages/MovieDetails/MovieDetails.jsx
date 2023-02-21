@@ -22,7 +22,6 @@ const MovieDetails = () => {
 
   useEffect(() => {
     if (!movieID) return;
-    console.log('movieID :>> ', movieID);
     const getMovieDetails = async () => {
       try {
         setisLoading(true);
