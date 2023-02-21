@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/938.4dec3425.chunk.css","mappings":"AACE,0CACE","sources":["components/MovieDetailsReviews/MovieDetailsReviews.module.scss"],"sourcesContent":[".reviewsList {\n  p {\n    margin: 6px 0 30px;\n  }\n}\n"],"names":[],"sourceRoot":""}
