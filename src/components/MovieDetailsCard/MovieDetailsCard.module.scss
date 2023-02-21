@@ -1,0 +1,26 @@
+section {
+  margin-bottom: 40px;
+}
+.title {
+  //   text-align: center;
+  font-size: 26px;
+  margin: 16px 0;
+}
+.movieCard {
+  display: flex;
+  gap: 30px;
+}
+.poster {
+  width: 360px;
+}
+.info {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 1.4;
+  & span {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

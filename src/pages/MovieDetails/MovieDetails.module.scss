@@ -1,0 +1,32 @@
+.linksBar {
+  display: flex;
+  gap: 20px;
+  margin: 16px 0 40px;
+  & .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 36px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #191917;
+    color: inherit;
+    &:hover,
+    &:focus {
+      color: red;
+    }
+  }
+}
+
+.backBtn {
+  margin-bottom: 14px;
+  width: 110px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: #191917;
+  &:hover,
+  &:focus {
+    color: red;
+  }
+}
